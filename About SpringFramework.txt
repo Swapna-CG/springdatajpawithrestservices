@@ -1,0 +1,50 @@
+What is Framework?
+
+A basic structure for creating a system. or A format for completing the task.
+
+EssayWriting?
+
+Topics
+Introduction
+Explanation
+conclusion
+moral
+
+With and With out Framework?
+
+Without Framework = semi-furnished
+with Framework => fully furnished (Co-living spaces)
+
+
+What is Software Framework?
+An abstract using which a software can be developed
+Providing a generic functionality,can be selectively changed according to the project.
+
+
+Some software frameworks are 
+
+.Net
+Django (Python Web Framework)
+Hibernate (ORM Framework for java)
+Spring (Java Framework for enterprise applications) => Loose Coupling => reusable and testable code can be developed easily
+Struts (Java Framework used for views) using mvc architecture => tight Coupling
+etc.,
+
+What is Spring Framework?
+Java Based Application Framework
+Developed by Rod Johnson in 2003.
+
+Spring supports RAD => Rapid Application Development
+Spring is lightweight framework
+Spring provides an infrastructure to support application development
+Spring focuses on infrastructure of the application,developer can focus on application development
+Spring encourages the modular programming(layered architecture)
+Spring uses the POJO classes(Bean classes)/ (Plain Old Java Objects) like Employee,Customer,Department etc.,
+
+Spring IOC Container is used for creating,managing and destroying the beans(objects)
+by reading/scanning the XML or annotation or java based configuration
+
+Two Types of IOC Container
+
+BeanFactory
+ApplicationContext
