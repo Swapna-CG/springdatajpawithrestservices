@@ -40,11 +40,40 @@ Spring provides an infrastructure to support application development
 Spring focuses on infrastructure of the application,developer can focus on application development
 Spring encourages the modular programming(layered architecture)
 Spring uses the POJO classes(Bean classes)/ (Plain Old Java Objects) like Employee,Customer,Department etc.,
-
+pring (Java Framework for enterprise applications) => Loose Coupling => Inversion Of Control => Dependency Injection => Design Pattern
 Spring IOC Container is used for creating,managing and destroying the beans(objects)
 by reading/scanning the XML or annotation or java based configuration
 
-Two Types of IOC Container
+Two Types of Spring IOC Container
 
 BeanFactory
 ApplicationContext
+
+What is IOC?
+
+IOC is a design pattern.Dependency Injection
+
+What is Dependency Injection?
+
+DI is a process where objects define dependencies with other objects .
+
+Types of Dependency Injection:
+
+constructor based dependency injection
+setter based dependency injection
+
+Advantages of DI:
+==============
+DeCoupling : code with the cleaner with DI principle
+Easier to test
+
+what is difference between BeanFactory vs ApplicationContext?
+
+Practice program on DI
+===================
+Shape => interface with area Method
+implement this interface in different classes like Rectangle,Square,Circle etc.,
+And inject the dependency using 
+field
+constructor
+setter
