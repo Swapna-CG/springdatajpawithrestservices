@@ -9,7 +9,7 @@ import com.mouritech.springdiexample.service.MessageService;
 @Component
 public class FieldBasedInjection {
 	@Autowired
-	@Qualifier("FaceBookService")
+	@Qualifier("fService")
 	private MessageService msgService;
 
 	public MessageService getMsgService() {

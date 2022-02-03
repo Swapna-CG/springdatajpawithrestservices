@@ -11,7 +11,7 @@ public class ConstructorBasedDIExample {
 	private MessageService msgService;
 
 	@Autowired
-	public ConstructorBasedDIExample(@Qualifier("WhatsAppService") MessageService mService) {
+	public ConstructorBasedDIExample(@Qualifier("wService") MessageService mService) {
 		super();
 		this.msgService = mService;
 	}
