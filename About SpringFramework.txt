@@ -127,3 +127,16 @@ Implementations are required to implement:
 org.springframework.ui.Model
 ============================
 Java-5-specific interface that defines a holder for model attributes.Primarily designed for adding attributes to the model.Allows for accessing the overall model as a java.util.Map
+
+
+org.springframework.web.servlet.config.annotation.WebMvcConfigurer
+==========================================================
+
+Defines callback methods to customize the Java-based configuration for Spring MVC enabled via @EnableWebMvc. 
+
+@EnableWebMvc-annotated configuration classes may implementthis interface to be called back and given a chance to customize thedefault configuration.
+
+
+void com.mouritech.ordermanagementsystem.config.WebMvcConfig.addResourceHandlers(ResourceHandlerRegistry registry)
+====================================================================================
+Add handlers to serve static resources such as images, js, and, css files from specific locations under web application root, the classpath,and others.
