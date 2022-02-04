@@ -32,4 +32,11 @@ public class OrderDaoImpl implements OrderDao {
 		return query.getResultList();
 	}
 
+	public void saveOrder(Order theNewOrder) {
+		Session currHibSession = sessionFactory.getCurrentSession();
+		currHibSession.saveOrUpdate(theNewOrder);
+	}
+	
+	
+
 }

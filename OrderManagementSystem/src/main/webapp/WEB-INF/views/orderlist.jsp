@@ -8,10 +8,10 @@
 <title>Order List</title>
 </head>
 <body>
-	<h2>Order Details</h2>
-	<h2>${Orders}</h2>
-	<div align="center">
 
+
+	<div align="center">
+	<h2>Order Details</h2>
 	<table border="1" cellpadding = "5">
 		<caption><h2>List of Order</h2></caption>
 		<tr>

@@ -18,8 +18,14 @@ public class OrderServiceImpl implements OrderService{
 
 	@Transactional
 	public List<Order> getAllOrders() {
-		// TODO Auto-generated method stub
+		
 		return ordDao.getAllOrders();
+	}
+
+	@Transactional
+	public void saveOrder(Order theNewOrder) {
+		
+		 ordDao.saveOrder(theNewOrder);
 	}
 
 }
